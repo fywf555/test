@@ -1,0 +1,5 @@
+void Update()
+{
+  transform.getComponet<Text>().text = "time" + Time.deltatime;
+  
+}
